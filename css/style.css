@@ -56,9 +56,14 @@
 /* hero */
 .hero{
     background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-container{
+    position: relative;
     padding-bottom: 286px;
 }
-
 .hero-abr {
     font-family: 'PT Serif';
     font-weight: 400;
@@ -111,6 +116,17 @@
     width: 160px;
     height: 120px;
 }
+.hero-image{
+    width: 837px;
+    height: 403px;
+    transform-origin: bottom left;
+    transform: rotate(-30deg);
+    position: absolute;
+    left: 478px;
+    /* top: 387px; */
+    bottom: 0;
+}
+
 /* proses */
 
 .proses-section{
